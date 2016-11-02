@@ -1,5 +1,9 @@
 general:
   build_dir: /src/test/java
+  artifacts:
+     - $CIRCLE_TEST_REPORTS
+     - target
+
 
 test:
   post:
