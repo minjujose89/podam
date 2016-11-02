@@ -89,7 +89,7 @@
 			<timezone>CST</timezone>
 		</contributor>
 		<contributor>
-			<name>MÃ¡rcio Carmona</name>
+			<name>Márcio Carmona</name>
 			<email>marciocarmona@gmail.com</email>
 			<organizationUrl>http://www.linkedin.com/in/marciocarmona</organizationUrl>
 			<roles>
@@ -130,7 +130,7 @@
 			<timezone>UTC-3</timezone>
 		</contributor>
 		<contributor>
-			<name>ClÃ©ment Oukhemanou</name>
+			<name>Clément Oukhemanou</name>
 			<email>c.oukhemanou@radhius.fr</email>
 			<roles>
 				<role>Developer</role>
@@ -297,9 +297,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19</version>
-				<configuration>
-					<skip>true</skip>
-				</configuration>
 			</plugin>
 			<plugin>
 				<artifactId>maven-failsafe-plugin</artifactId>
@@ -506,4 +503,3 @@
 
 
 </project>
-
